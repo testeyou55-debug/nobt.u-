@@ -1,0 +1,38 @@
+[
+  {
+    "id": "nobt-ice-mint",
+    "name": "Pod descartável — Ice Mint",
+    "price": 29.9,
+    "description": "Menta gelada premium com frescor suave."
+  },
+  {
+    "id": "nobt-blue-razz",
+    "name": "Pod descartável — Blue Razz",
+    "price": 29.9,
+    "description": "Frutas azuis doces com acidez equilibrada."
+  },
+  {
+    "id": "nobt-grape-freeze",
+    "name": "Pod descartável — Grape Freeze",
+    "price": 29.9,
+    "description": "Uva madura com toque gelado."
+  },
+  {
+    "id": "nobt-mango-ice",
+    "name": "Pod descartável — Mango Ice",
+    "price": 29.9,
+    "description": "Manga tropical cremosa com frescor."
+  },
+  {
+    "id": "nobt-classic-tobacco",
+    "name": "Pod recarregável — Classic Tobacco",
+    "price": 69.9,
+    "description": "Tabaco refinado sofisticado."
+  },
+  {
+    "id": "nobt-menthol-fresh",
+    "name": "Pod recarregável — Menthol Fresh",
+    "price": 69.9,
+    "description": "Menta cristalina e pureza."
+  }
+]

@@ -1,0 +1,48 @@
+
+:root{
+  --bg:#000000;
+  --gold:#4137d4;
+  --muted:#1A1A1A;
+  --white:#ffffff;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,Arial,Helvetica,sans-serif;background:var(--bg);color:var(--white);-webkit-font-smoothing:antialiased}
+.container{max-width:1100px;margin:0 auto;padding:28px}
+.site-header{border-bottom:1px solid rgba(212,175,55,0.07);position:sticky;top:0;background:linear-gradient(180deg, rgba(0,0,0,0.9), rgba(0,0,0,0.7));backdrop-filter:blur(4px);z-index:50}
+.site-header .container{display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;gap:14px;align-items:center}
+.logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(180deg,var(--gold),#b58f2f);display:flex;align-items:center;justify-content:center;font-size:28px}
+.brand h1{margin:0;font-family:Montserrat,Arial;font-weight:700;letter-spacing:1px}
+.tag{margin:0;color:rgba(255,255,255,0.7);font-size:13px}
+
+.nav a{color:rgba(255,255,255,0.85);text-decoration:none;margin-left:18px}
+
+.hero{padding:80px 0;border-bottom:1px solid rgba(255,255,255,0.03)}
+.hero-inner{display:flex;flex-direction:column;gap:12px;align-items:flex-start}
+.hero h2{font-size:36px;margin:0;color:var(--gold)}
+.hero p{max-width:600px;line-height:1.5;color:rgba(255,255,255,0.8)}
+
+.btn-primary{display:inline-block;padding:12px 18px;background:var(--gold);color:#000;border-radius:8px;text-decoration:none;font-weight:700;margin-top:8px}
+.btn-secondary{display:inline-block;padding:10px 16px;border:1px solid rgba(212,175,55,0.14);color:var(--gold);border-radius:8px;text-decoration:none;font-weight:600;background:transparent}
+
+.products h3{color:var(--gold);margin-bottom:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:16px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
+.card img{width:100%;height:160px;object-fit:cover;border-radius:8px;background:linear-gradient(180deg,#111,#0b0b0b);display:block}
+.card h4{margin:10px 0 6px;font-size:18px}
+.card p{margin:0;color:rgba(255,255,255,0.7);font-size:14px}
+.card .price{margin-top:8px;font-weight:700;color:var(--gold)}
+.card .actions{display:flex;gap:8px;margin-top:10px}
+.card .btn{flex:1;padding:10px;border-radius:8px;text-align:center;text-decoration:none;font-weight:700}
+
+.site-footer{border-top:1px solid rgba(255,255,255,0.03);padding:22px 0;margin-top:28px;color:rgba(255,255,255,0.6)}
+.small{font-size:13px;color:rgba(255,255,255,0.45)}
+
+/* WhatsApp float */
+#whatsapp-float{position:fixed;right:18px;bottom:18px;background:var(--gold);color:#000;padding:12px 16px;border-radius:999px;font-weight:700;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,0.5)}
+
+/* Responsive tweaks */
+@media(max-width:700px){
+  .site-header .container{flex-direction:column;align-items:flex-start;gap:12px}
+  .hero h2{font-size:28px}
+}
